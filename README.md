@@ -22,7 +22,7 @@ The main functionalities:
 - Google Cloud Pub/Sub
 - Google Cloud Run
 
-![Architecture Diagram](/Users/yeshwanthvemula/Downloads/Application Screenshot.png)
+![Application Screenshot](https://github.com/yesh07/YouTube-clone/assets/60771818/f5f86550-11e4-429c-8439-70d81c24f668)
 
 ### Architecture
 
