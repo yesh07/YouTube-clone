@@ -1,0 +1,68 @@
+[debug] [2023-10-21T13:50:31.027Z] ----------------------------------------------------------------------
+[debug] [2023-10-21T13:50:31.030Z] Command:       /usr/local/bin/firebase /Users/yeshwanthvemula/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase --debug init functions
+[debug] [2023-10-21T13:50:31.031Z] CLI Version:   12.7.0
+[debug] [2023-10-21T13:50:31.031Z] Platform:      darwin
+[debug] [2023-10-21T13:50:31.032Z] Node Version:  v16.16.0
+[debug] [2023-10-21T13:50:31.051Z] Time:          Sat Oct 21 2023 09:50:31 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-10-21T13:50:31.052Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-21T13:50:31.182Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-21T13:50:31.185Z] > authorizing via signed-in user (yeshwanth1781@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/yeshwanthvemula/YouTube-clone/yt-web-client
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-21T13:50:31.191Z] Using project from CLI flag: yt-clone-48bb7
+[debug] [2023-10-21T13:50:31.201Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/yt-clone-48bb7 [none]
+[debug] [2023-10-21T13:50:31.751Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/yt-clone-48bb7 200
+[debug] [2023-10-21T13:50:31.752Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/yt-clone-48bb7 {"projectId":"yt-clone-48bb7","projectNumber":"183111609308","displayName":"yt-clone","name":"projects/yt-clone-48bb7","resources":{"hostingSite":"yt-clone-48bb7"},"state":"ACTIVE","etag":"1_8cad75d9-ec2e-42a2-b8ee-46d25f8297a6"}
+[info] i  Using project yt-clone-48bb7 (yt-clone) 
+[info] 
+=== Functions Setup
+[debug] [2023-10-21T13:50:31.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-21T13:50:31.786Z] > authorizing via signed-in user (yeshwanth1781@gmail.com)
+[debug] [2023-10-21T13:50:31.789Z] [iam] checking project yt-clone-48bb7 for permissions ["firebase.projects.get"]
+[debug] [2023-10-21T13:50:31.795Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/yt-clone-48bb7:testIamPermissions [none]
+[debug] [2023-10-21T13:50:31.796Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/yt-clone-48bb7:testIamPermissions x-goog-quota-user=projects/yt-clone-48bb7
+[debug] [2023-10-21T13:50:31.798Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/yt-clone-48bb7:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-10-21T13:50:32.047Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/yt-clone-48bb7:testIamPermissions 200
+[debug] [2023-10-21T13:50:32.047Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/yt-clone-48bb7:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-10-21T13:50:32.049Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yt-clone-48bb7/services/cloudfunctions.googleapis.com [none]
+[debug] [2023-10-21T13:50:32.049Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yt-clone-48bb7/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/yt-clone-48bb7
+[debug] [2023-10-21T13:50:32.051Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yt-clone-48bb7/services/runtimeconfig.googleapis.com [none]
+[debug] [2023-10-21T13:50:32.051Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yt-clone-48bb7/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/yt-clone-48bb7
+[debug] [2023-10-21T13:50:32.512Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yt-clone-48bb7/services/runtimeconfig.googleapis.com 200
+[debug] [2023-10-21T13:50:32.513Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yt-clone-48bb7/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2023-10-21T13:50:32.515Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yt-clone-48bb7/services/cloudfunctions.googleapis.com 200
+[debug] [2023-10-21T13:50:32.515Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yt-clone-48bb7/services/cloudfunctions.googleapis.com [omitted]
+[info] 
+Detected existing codebase(s): default
+
+[info] 
+Overwriting codebase default...
+
+[info] ✔  Wrote functions/package.json 
+[info] ✔  Wrote functions/.eslintrc.js 
+[info] ✔  Wrote functions/tsconfig.json 
+[info] ✔  Wrote functions/tsconfig.dev.json 
+[info] ✔  Wrote functions/src/index.ts 
+[info] ✔  Wrote functions/.gitignore 
+[info] 
