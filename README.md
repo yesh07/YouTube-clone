@@ -37,4 +37,6 @@ The application architecture is designed for efficiency and scalability:
 - **Next.js App:** Serves as the frontend interface for users, making API calls to Firebase Functions.
 - **Firebase Functions:** Handles backend logic, fetching videos from Firestore and serving them to the frontend.
 
+<img width="1152" alt="Screenshot 2024-03-10 at 4 22 22 PM" src="https://github.com/yesh07/YouTube-clone/assets/60771818/51e90d69-5dcf-47d4-a620-663533fdaef1">
+
 ![Application Screenshot](https://github.com/yesh07/YouTube-clone/assets/60771818/f5f86550-11e4-429c-8439-70d81c24f668)
