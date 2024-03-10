@@ -1,4 +1,4 @@
-# YouTube Clone: Full-Stack Application
+# YouTube Clone: Full-Stack Cloud Application
 
 ## Main Functionalities
 
